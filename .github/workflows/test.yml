@@ -1,8 +1,8 @@
 name: 自动测速
 
 on:
-  schedule:
-    - cron: '0 16 * * *'
+#  schedule:
+ #   - cron: '0 16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -48,3 +48,4 @@ jobs:
           git add *.txt
           git commit -m "自动优选"
           git push
+
